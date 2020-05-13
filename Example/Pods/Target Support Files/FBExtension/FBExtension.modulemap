@@ -1,0 +1,6 @@
+framework module FBExtension {
+  umbrella header "FBExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}

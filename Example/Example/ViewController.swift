@@ -7,12 +7,14 @@
 //
 
 import UIKit
+import FBExtension
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+//        print("100".toDouble())
     }
 
 
