@@ -22,7 +22,7 @@
     {
       "name": "FBExtension",
       "source_files": [
-        "FBExtension/**/*.swift"
+        "FBExtension/Classes/**/*.swift"
       ]
     }
   ]
