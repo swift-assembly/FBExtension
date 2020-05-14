@@ -20,9 +20,39 @@
   },
   "subspecs": [
     {
-      "name": "FBExtension",
+      "name": "CoreGraphics",
       "source_files": [
-        "FBExtension/Classes/**/*.swift"
+        "FBExtension/Classes/CoreGraphics/**/*.swift"
+      ]
+    },
+    {
+      "name": "CoreLocation",
+      "source_files": [
+        "FBExtension/Classes/CoreLocation/**/*.swift"
+      ]
+    },
+    {
+      "name": "Dispatch",
+      "source_files": [
+        "FBExtension/Classes/Dispatch/**/*.swift"
+      ]
+    },
+    {
+      "name": "Foundation",
+      "source_files": [
+        "FBExtension/Classes/Foundation/**/*.swift"
+      ]
+    },
+    {
+      "name": "QuartzCore",
+      "source_files": [
+        "FBExtension/Classes/QuartzCore/**/*.swift"
+      ]
+    },
+    {
+      "name": "UIKit",
+      "source_files": [
+        "FBExtension/Classes/UIKit/**/*.swift"
       ]
     }
   ]

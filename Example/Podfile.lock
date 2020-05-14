@@ -1,7 +1,17 @@
 PODS:
   - FBExtension (0.0.1):
-    - FBExtension/FBExtension (= 0.0.1)
-  - FBExtension/FBExtension (0.0.1)
+    - FBExtension/CoreGraphics (= 0.0.1)
+    - FBExtension/CoreLocation (= 0.0.1)
+    - FBExtension/Dispatch (= 0.0.1)
+    - FBExtension/Foundation (= 0.0.1)
+    - FBExtension/QuartzCore (= 0.0.1)
+    - FBExtension/UIKit (= 0.0.1)
+  - FBExtension/CoreGraphics (0.0.1)
+  - FBExtension/CoreLocation (0.0.1)
+  - FBExtension/Dispatch (0.0.1)
+  - FBExtension/Foundation (0.0.1)
+  - FBExtension/QuartzCore (0.0.1)
+  - FBExtension/UIKit (0.0.1)
 
 DEPENDENCIES:
   - FBExtension (from `../`)
@@ -11,7 +21,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FBExtension: 370fb21fc2061417f81c65c8c3fb4245ad267bad
+  FBExtension: dbd19d73202d42885ee6d2473489c1738e0c3697
 
 PODFILE CHECKSUM: f806212383edd1aca0ef95f0a47751e7c4bef1ed
 
