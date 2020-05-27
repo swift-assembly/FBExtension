@@ -22,39 +22,36 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/swift-assembly/FBExtension.git', :tag => s.version }
 
   s.ios.deployment_target = '10.0'
-#  s.static_framework = true
 
 
-#  s.source_files = 'FBExtension/Classes/**/*.swift'
+    s.subspec 'FBExtension' do |ss|
+    ss.source_files = ['FBExtension/Classes/**/*.swift']
+  end
   
-  # s.subspec 'FBExtension' do |ss|
-  #   ss.source_files = ['FBExtension/Classes/**/*.swift']
+  # s.subspec 'CoreGraphics' do |ss|
+  #   ss.source_files = ['FBExtension/Classes/CoreGraphics/**/*.swift']
   # end
 
-  s.subspec 'CoreGraphics' do |ss|
-    ss.source_files = ['FBExtension/Classes/CoreGraphics/**/*.swift']
-  end
+  # s.subspec 'CoreLocation' do |ss|
+  #   ss.source_files = ['FBExtension/Classes/CoreLocation/**/*.swift']
+  # end
 
-  s.subspec 'CoreLocation' do |ss|
-    ss.source_files = ['FBExtension/Classes/CoreLocation/**/*.swift']
-  end
+  # s.subspec 'Dispatch' do |ss|
+  #   ss.source_files = ['FBExtension/Classes/Dispatch/**/*.swift']
+  # end
 
-  s.subspec 'Dispatch' do |ss|
-    ss.source_files = ['FBExtension/Classes/Dispatch/**/*.swift']
-  end
-
-  s.subspec 'Foundation' do |ss|
-    ss.source_files = ['FBExtension/Classes/Foundation/**/*.swift']
-  end
+  # s.subspec 'Foundation' do |ss|
+  #   ss.source_files = ['FBExtension/Classes/Foundation/**/*.swift']
+  # end
 
 
-  s.subspec 'QuartzCore' do |ss|
-    ss.source_files = ['FBExtension/Classes/QuartzCore/**/*.swift']
-  end
+  # s.subspec 'QuartzCore' do |ss|
+  #   ss.source_files = ['FBExtension/Classes/QuartzCore/**/*.swift']
+  # end
 
-  s.subspec 'UIKit' do |ss|
-    ss.source_files = ['FBExtension/Classes/UIKit/**/*.swift']
-  end
+  # s.subspec 'UIKit' do |ss|
+  #   ss.source_files = ['FBExtension/Classes/UIKit/**/*.swift']
+  # end
   
   
   
