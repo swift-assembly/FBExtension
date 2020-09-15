@@ -27,36 +27,8 @@ Pod::Spec.new do |s|
     s.subspec 'FBExtension' do |ss|
     ss.source_files = ['FBExtension/Classes/**/*.swift']
   end
-  
-  # s.subspec 'CoreGraphics' do |ss|
-  #   ss.source_files = ['FBExtension/Classes/CoreGraphics/**/*.swift']
-  # end
-
-  # s.subspec 'CoreLocation' do |ss|
-  #   ss.source_files = ['FBExtension/Classes/CoreLocation/**/*.swift']
-  # end
-
-  # s.subspec 'Dispatch' do |ss|
-  #   ss.source_files = ['FBExtension/Classes/Dispatch/**/*.swift']
-  # end
-
-  # s.subspec 'Foundation' do |ss|
-  #   ss.source_files = ['FBExtension/Classes/Foundation/**/*.swift']
-  # end
-
-
-  # s.subspec 'QuartzCore' do |ss|
-  #   ss.source_files = ['FBExtension/Classes/QuartzCore/**/*.swift']
-  # end
-
-  # s.subspec 'UIKit' do |ss|
-  #   ss.source_files = ['FBExtension/Classes/UIKit/**/*.swift']
-  # end
-  
-  
-  
-  
-  
-  # s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
-
+    
+    
+    s.dependency 'SwifterSwift'
+    
 end
