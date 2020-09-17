@@ -23,12 +23,9 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.0'
 
-
-    s.subspec 'FBExtension' do |ss|
-    ss.source_files = ['FBExtension/Classes/**/*.swift']
-  end
+  s.source_files = ['FBExtension/Classes/**/*.swift']
     
     
-    s.dependency 'SwifterSwift'
+  s.dependency 'SwifterSwift/UIKit'
     
 end

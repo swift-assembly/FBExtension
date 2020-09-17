@@ -57,6 +57,22 @@ extension UIView{
         }
         
     }
+    var centerX: CGFloat {
+        get {
+            return center.x
+        }
+        set {
+            center.x = newValue
+        }
+    }
+    var centerY: CGFloat {
+        get {
+            return center.y
+        }
+        set {
+            center.y = newValue
+        }
+    }
     
 }
 
